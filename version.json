@@ -5,13 +5,12 @@
   "releaseDate": "2026-10-08",
   "title": "Karaoke Studio v2.0.8",
   "changelog": [
-    "Compact TV Stage Header: reduced size of HOST IP badge, brand logo, microphone icon, and soundwave animation bars for a clean visual layout",
-    "Restored Stage Controller & Settings: fixed deck visibility toggle button and on-screen controller keypad with integrated TV FX Settings drawer",
-    "Auto-Hide & Auto-Close Stage Controller: stage controller automatically closes and hides whenever TV Settings or modal drawers are open",
-    "Smooth Playback Performance: eliminated fill-rate intensive blur filters in favor of hardware-accelerated text-stroke and single-pass shadow, eliminating TV playback lag and stutter",
-    "Live Settings & SoundFont Synchronization: real-time 0ms sync between Mobile Remote and TV Stage with active soundfont switching and user state preservation",
-    "Lyric Visuals: Eliminated interior letter lines and artifacts",
-    "Guide Melody Control: True MIDI track velocity scaling for OFF, LOW, MID, HIGH live without interruption"
+    "Crash Prevention & System Resilience: Added global UncaughtExceptionHandler, WebView crash protection (onRenderProcessGone), and safe orientation per device flavor",
+    "Hardware Audio & Melody Safety: Release active MediaPlayer before re-initialization to eliminate native EAS synth conflicts and SIGSEGV aborts",
+    "Safe MIDI Parser: Protected chunk bounds and added full exception guard to prevent infinite loops and MIDI corruption",
+    "API Compatibility: Replaced getContentLengthLong and windowLightStatusBar for 100% crash-free execution on all Android API levels (21+)",
+    "Lag-Free Skia Text Shadows: Replaced heavy chained GPU drop-shadow filters with hardware-accelerated Skia text-shadow",
+    "Remote Network Stability: Replaced aggressive startup network scan with on-demand IP modal and gentle subnet discovery"
   ],
   "forceUpdate": false,
   "targets": {
@@ -22,7 +21,7 @@
       "apkName": "KaraokeStudio-TV-v2.0.8.apk",
       "apkUrl": "https://github.com/zoryvaxcinema-source/SING-HUB/releases/download/V2.0.8/KaraokeStudio-TV-v2.0.8.apk",
       "fallbackUrl": "https://singhub.zoryva.me/downloads/KaraokeStudio-TV-v2.0.8.apk",
-      "apkSize": 764136860
+      "apkSize": 764137841
     },
     "host": {
       "applicationId": "com.karaokestudio.tv",
@@ -31,7 +30,7 @@
       "apkName": "KaraokeStudio-TV-v2.0.8.apk",
       "apkUrl": "https://github.com/zoryvaxcinema-source/SING-HUB/releases/download/V2.0.8/KaraokeStudio-TV-v2.0.8.apk",
       "fallbackUrl": "https://singhub.zoryva.me/downloads/KaraokeStudio-TV-v2.0.8.apk",
-      "apkSize": 764136860
+      "apkSize": 764137841
     },
     "remote": {
       "applicationId": "com.karaokestudio.remote",
@@ -40,7 +39,7 @@
       "apkName": "KaraokeStudio-Remote-v2.0.8.apk",
       "apkUrl": "https://github.com/zoryvaxcinema-source/SING-HUB/releases/download/V2.0.8/KaraokeStudio-Remote-v2.0.8.apk",
       "fallbackUrl": "https://singhub.zoryva.me/downloads/KaraokeStudio-Remote-v2.0.8.apk",
-      "apkSize": 4699152
+      "apkSize": 4699954
     }
   }
 }
