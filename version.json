@@ -1,45 +1,45 @@
 {
-  "versionCode": 11,
-  "versionName": "2.0.8",
+  "versionCode": 13,
+  "versionName": "2.0.9",
   "minSupportedVersion": "1.0.0",
   "releaseDate": "2026-10-08",
-  "title": "Karaoke Studio v2.0.8",
+  "title": "Karaoke Studio v2.0.9",
   "changelog": [
-    "Crash Prevention & System Resilience: Added global UncaughtExceptionHandler, WebView crash protection (onRenderProcessGone), and safe orientation per device flavor",
-    "Hardware Audio & Melody Safety: Release active MediaPlayer before re-initialization to eliminate native EAS synth conflicts and SIGSEGV aborts",
-    "Safe MIDI Parser: Protected chunk bounds and added full exception guard to prevent infinite loops and MIDI corruption",
-    "API Compatibility: Replaced getContentLengthLong and windowLightStatusBar for 100% crash-free execution on all Android API levels (21+)",
-    "Lag-Free Skia Text Shadows: Replaced heavy chained GPU drop-shadow filters with hardware-accelerated Skia text-shadow",
-    "Remote Network Stability: Replaced aggressive startup network scan with on-demand IP modal and gentle subnet discovery"
+    "Clean Solid Lyrics: Removed inner letter contour hairlines on Sans and Impact fonts with native font weights and anti-aliased drop-shadows",
+    "Real-Time Key & Tempo Shifter: Live MIDI pitch transposition and tempo scaling with zero lag",
+    "TV Stage Controller Badges: Added - 0 + numeric readout badges for Key and Tempo matching mobile remote",
+    "Dynamic Randomized Scoring: Dynamic score formula based on Scoring Setup (Easy, Medium, Hard) and cheerleader fanfare",
+    "TV Hardware Volume Curve: Synchronized master volume directly with Android STREAM_MUSIC mixer and web player",
+    "Full Cache Busting: Automatic cache purge on upgrade ensuring immediate application of all new features"
   ],
   "forceUpdate": false,
   "targets": {
     "tv": {
       "applicationId": "com.karaokestudio.tv",
-      "versionCode": 11,
-      "versionName": "2.0.8",
-      "apkName": "KaraokeStudio-TV-v2.0.8.apk",
-      "apkUrl": "https://github.com/zoryvaxcinema-source/SING-HUB/releases/download/V2.0.8/KaraokeStudio-TV-v2.0.8.apk",
-      "fallbackUrl": "https://singhub.zoryva.me/downloads/KaraokeStudio-TV-v2.0.8.apk",
-      "apkSize": 764137841
+      "versionCode": 13,
+      "versionName": "2.0.9",
+      "apkName": "KaraokeStudio-TV-v2.0.9.apk",
+      "apkUrl": "https://github.com/zoryvaxcinema-source/SING-HUB/releases/download/V2.0.9/KaraokeStudio-TV-v2.0.9.apk",
+      "fallbackUrl": "https://singhub.zoryva.me/downloads/KaraokeStudio-TV-v2.0.9.apk",
+      "apkSize": 764142695
     },
     "host": {
       "applicationId": "com.karaokestudio.tv",
-      "versionCode": 11,
-      "versionName": "2.0.8",
-      "apkName": "KaraokeStudio-TV-v2.0.8.apk",
-      "apkUrl": "https://github.com/zoryvaxcinema-source/SING-HUB/releases/download/V2.0.8/KaraokeStudio-TV-v2.0.8.apk",
-      "fallbackUrl": "https://singhub.zoryva.me/downloads/KaraokeStudio-TV-v2.0.8.apk",
-      "apkSize": 764137841
+      "versionCode": 13,
+      "versionName": "2.0.9",
+      "apkName": "KaraokeStudio-TV-v2.0.9.apk",
+      "apkUrl": "https://github.com/zoryvaxcinema-source/SING-HUB/releases/download/V2.0.9/KaraokeStudio-TV-v2.0.9.apk",
+      "fallbackUrl": "https://singhub.zoryva.me/downloads/KaraokeStudio-TV-v2.0.9.apk",
+      "apkSize": 764142695
     },
     "remote": {
       "applicationId": "com.karaokestudio.remote",
-      "versionCode": 11,
-      "versionName": "2.0.8",
-      "apkName": "KaraokeStudio-Remote-v2.0.8.apk",
-      "apkUrl": "https://github.com/zoryvaxcinema-source/SING-HUB/releases/download/V2.0.8/KaraokeStudio-Remote-v2.0.8.apk",
-      "fallbackUrl": "https://singhub.zoryva.me/downloads/KaraokeStudio-Remote-v2.0.8.apk",
-      "apkSize": 4699954
+      "versionCode": 13,
+      "versionName": "2.0.9",
+      "apkName": "KaraokeStudio-Remote-v2.0.9.apk",
+      "apkUrl": "https://github.com/zoryvaxcinema-source/SING-HUB/releases/download/V2.0.9/KaraokeStudio-Remote-v2.0.9.apk",
+      "fallbackUrl": "https://singhub.zoryva.me/downloads/KaraokeStudio-Remote-v2.0.9.apk",
+      "apkSize": 4703900
     }
   }
 }
