@@ -1,0 +1,43 @@
+{
+  "versionCode": 5,
+  "versionName": "2.0.2",
+  "minSupportedVersion": "1.0.0",
+  "releaseDate": "2026-10-08",
+  "title": "Karaoke Studio v2.0.2",
+  "changelog": [
+    "Fixed dual lyrics overlap on TV Stage",
+    "Enhanced scoring screen timing and smooth transition",
+    "Streamlined navigation highlight border for TV remote",
+    "Added direct in-app auto-updater from website (singhub.zoryva.me)"
+  ],
+  "forceUpdate": false,
+  "targets": {
+    "tv": {
+      "applicationId": "com.karaokestudio.tv",
+      "versionCode": 5,
+      "versionName": "2.0.2",
+      "apkName": "KaraokeStudio-TV-v2.0.2.apk",
+      "apkUrl": "https://singhub.zoryva.me/downloads/KaraokeStudio-TV-v2.0.2.apk",
+      "fallbackUrl": "https://github.com/zoryvaxcinema-source/SING-HUB/releases/download/V2.0.2/KaraokeStudio-TV-v2.0.2.apk",
+      "apkSize": 764121433
+    },
+    "host": {
+      "applicationId": "com.karaokestudio.tv",
+      "versionCode": 5,
+      "versionName": "2.0.2",
+      "apkName": "KaraokeStudio-TV-v2.0.2.apk",
+      "apkUrl": "https://singhub.zoryva.me/downloads/KaraokeStudio-TV-v2.0.2.apk",
+      "fallbackUrl": "https://github.com/zoryvaxcinema-source/SING-HUB/releases/download/V2.0.2/KaraokeStudio-TV-v2.0.2.apk",
+      "apkSize": 764121433
+    },
+    "remote": {
+      "applicationId": "com.karaokestudio.remote",
+      "versionCode": 5,
+      "versionName": "2.0.2",
+      "apkName": "KaraokeStudio-Remote-v2.0.2.apk",
+      "apkUrl": "https://singhub.zoryva.me/downloads/KaraokeStudio-Remote-v2.0.2.apk",
+      "fallbackUrl": "https://github.com/zoryvaxcinema-source/SING-HUB/releases/download/V2.0.2/KaraokeStudio-Remote-v2.0.2.apk",
+      "apkSize": 4688072
+    }
+  }
+}
