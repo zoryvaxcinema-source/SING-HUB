@@ -18,7 +18,7 @@
       "apkName": "KaraokeStudio-TV-v2.0.3.apk",
       "apkUrl": "https://github.com/zoryvaxcinema-source/SING-HUB/releases/download/V2.0.3/KaraokeStudio-TV-v2.0.3.apk",
       "fallbackUrl": "https://singhub.zoryva.me/downloads/KaraokeStudio-TV-v2.0.3.apk",
-      "apkSize": 764122556
+      "apkSize": 764122409
     },
     "host": {
       "applicationId": "com.karaokestudio.tv",
@@ -27,7 +27,7 @@
       "apkName": "KaraokeStudio-TV-v2.0.3.apk",
       "apkUrl": "https://github.com/zoryvaxcinema-source/SING-HUB/releases/download/V2.0.3/KaraokeStudio-TV-v2.0.3.apk",
       "fallbackUrl": "https://singhub.zoryva.me/downloads/KaraokeStudio-TV-v2.0.3.apk",
-      "apkSize": 764122556
+      "apkSize": 764122409
     },
     "remote": {
       "applicationId": "com.karaokestudio.remote",
@@ -36,7 +36,7 @@
       "apkName": "KaraokeStudio-Remote-v2.0.3.apk",
       "apkUrl": "https://github.com/zoryvaxcinema-source/SING-HUB/releases/download/V2.0.3/KaraokeStudio-Remote-v2.0.3.apk",
       "fallbackUrl": "https://singhub.zoryva.me/downloads/KaraokeStudio-Remote-v2.0.3.apk",
-      "apkSize": 4690441
+      "apkSize": 4690758
     }
   }
 }
