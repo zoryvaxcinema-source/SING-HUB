@@ -1,48 +1,44 @@
 {
-  "versionCode": 10,
-  "versionName": "2.0.7",
+  "versionCode": 11,
+  "versionName": "2.0.8",
   "minSupportedVersion": "1.0.0",
   "releaseDate": "2026-10-08",
-  "title": "Karaoke Studio v2.0.7",
+  "title": "Karaoke Studio v2.0.8",
   "changelog": [
-    "Fixed TV stage playback stutter & lag: optimized graphics pipeline with hardware-accelerated text-stroke and eliminated multi-pass Gaussian blur filter bottlenecks",
-    "Cleaned TV Stage header: completely removed all settings buttons and triggers from header",
-    "Auto-Hide & Auto-Close Stage Controller: stage controller deck automatically collapses and hides when TV Settings is opened",
-    "Optimized animation loop: O(1) active line lookup, cached line indices, and skipped redundant style recalculations on unchanged progress frames",
-    "Fixed Mobile Remote Settings and TV Stage Settings buttons, switches, and sliders with instant 0ms live synchronization",
-    "Live SoundFont switching: selecting soundfonts immediately activates the soundbank in the audio engine live",
-    "Prevented setting reversions on Mobile Remote by adding user interaction timestamp guards",
-    "Full persistence: all settings and active soundfonts persist across app restarts in SharedPreferences and localStorage",
-    "Added TV Stage Update System & 'Check for Updates' feature in TV Settings Drawer"
+    "Compact TV Stage Header: reduced size of HOST IP badge, brand logo, microphone icon, and soundwave animation bars for a clean visual layout",
+    "Restored Stage Controller & Settings: fixed deck visibility toggle button and on-screen controller keypad with integrated TV FX Settings drawer",
+    "Auto-Hide & Auto-Close Stage Controller: stage controller automatically closes and hides whenever TV Settings or modal drawers are open",
+    "Smooth Playback Performance: eliminated fill-rate intensive blur filters in favor of hardware-accelerated text-stroke and single-pass shadow, eliminating TV playback lag and stutter",
+    "Live Settings & SoundFont Synchronization: real-time 0ms sync between Mobile Remote and TV Stage with active soundfont switching and user state preservation"
   ],
   "forceUpdate": false,
   "targets": {
     "tv": {
       "applicationId": "com.karaokestudio.tv",
-      "versionCode": 10,
-      "versionName": "2.0.7",
-      "apkName": "KaraokeStudio-TV-v2.0.7.apk",
-      "apkUrl": "https://github.com/zoryvaxcinema-source/SING-HUB/releases/download/V2.0.7/KaraokeStudio-TV-v2.0.7.apk",
-      "fallbackUrl": "https://singhub.zoryva.me/downloads/KaraokeStudio-TV-v2.0.7.apk",
-      "apkSize": 764135166
+      "versionCode": 11,
+      "versionName": "2.0.8",
+      "apkName": "KaraokeStudio-TV-v2.0.8.apk",
+      "apkUrl": "https://github.com/zoryvaxcinema-source/SING-HUB/releases/download/V2.0.8/KaraokeStudio-TV-v2.0.8.apk",
+      "fallbackUrl": "https://singhub.zoryva.me/downloads/KaraokeStudio-TV-v2.0.8.apk",
+      "apkSize": 764135140
     },
     "host": {
       "applicationId": "com.karaokestudio.tv",
-      "versionCode": 10,
-      "versionName": "2.0.7",
-      "apkName": "KaraokeStudio-TV-v2.0.7.apk",
-      "apkUrl": "https://github.com/zoryvaxcinema-source/SING-HUB/releases/download/V2.0.7/KaraokeStudio-TV-v2.0.7.apk",
-      "fallbackUrl": "https://singhub.zoryva.me/downloads/KaraokeStudio-TV-v2.0.7.apk",
-      "apkSize": 764135166
+      "versionCode": 11,
+      "versionName": "2.0.8",
+      "apkName": "KaraokeStudio-TV-v2.0.8.apk",
+      "apkUrl": "https://github.com/zoryvaxcinema-source/SING-HUB/releases/download/V2.0.8/KaraokeStudio-TV-v2.0.8.apk",
+      "fallbackUrl": "https://singhub.zoryva.me/downloads/KaraokeStudio-TV-v2.0.8.apk",
+      "apkSize": 764135140
     },
     "remote": {
       "applicationId": "com.karaokestudio.remote",
-      "versionCode": 10,
-      "versionName": "2.0.7",
-      "apkName": "KaraokeStudio-Remote-v2.0.7.apk",
-      "apkUrl": "https://github.com/zoryvaxcinema-source/SING-HUB/releases/download/V2.0.7/KaraokeStudio-Remote-v2.0.7.apk",
-      "fallbackUrl": "https://singhub.zoryva.me/downloads/KaraokeStudio-Remote-v2.0.7.apk",
-      "apkSize": 4696386
+      "versionCode": 11,
+      "versionName": "2.0.8",
+      "apkName": "KaraokeStudio-Remote-v2.0.8.apk",
+      "apkUrl": "https://github.com/zoryvaxcinema-source/SING-HUB/releases/download/V2.0.8/KaraokeStudio-Remote-v2.0.8.apk",
+      "fallbackUrl": "https://singhub.zoryva.me/downloads/KaraokeStudio-Remote-v2.0.8.apk",
+      "apkSize": 4696362
     }
   }
 }
