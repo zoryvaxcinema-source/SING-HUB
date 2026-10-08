@@ -1,12 +1,12 @@
 {
-  "versionCode": 9,
-  "versionName": "2.0.6",
+  "versionCode": 10,
+  "versionName": "2.0.7",
   "minSupportedVersion": "1.0.0",
   "releaseDate": "2026-10-08",
-  "title": "Karaoke Studio v2.0.6",
+  "title": "Karaoke Studio v2.0.7",
   "changelog": [
-    "Cleaned TV Stage header: completely removed settings trigger from header for uninterrupted presentation",
-    "Auto-hide Stage Controller: stage controller deck automatically collapses and hides when TV Settings or dialogs are opened",
+    "Cleaned TV Stage header: completely removed all settings buttons and triggers from header",
+    "Auto-Hide & Auto-Close Stage Controller: stage controller deck automatically collapses and hides when TV Settings is opened",
     "Fixed Mobile Remote Settings and TV Stage Settings buttons, switches, and sliders with instant 0ms live synchronization",
     "Live SoundFont switching: selecting soundfonts immediately activates the soundbank in the audio engine live",
     "Prevented setting reversions on Mobile Remote by adding user interaction timestamp guards",
@@ -17,30 +17,30 @@
   "targets": {
     "tv": {
       "applicationId": "com.karaokestudio.tv",
-      "versionCode": 9,
-      "versionName": "2.0.6",
-      "apkName": "KaraokeStudio-TV-v2.0.6.apk",
-      "apkUrl": "https://github.com/zoryvaxcinema-source/SING-HUB/releases/download/V2.0.6/KaraokeStudio-TV-v2.0.6.apk",
-      "fallbackUrl": "https://singhub.zoryva.me/downloads/KaraokeStudio-TV-v2.0.6.apk",
-      "apkSize": 764134826
+      "versionCode": 10,
+      "versionName": "2.0.7",
+      "apkName": "KaraokeStudio-TV-v2.0.7.apk",
+      "apkUrl": "https://github.com/zoryvaxcinema-source/SING-HUB/releases/download/V2.0.7/KaraokeStudio-TV-v2.0.7.apk",
+      "fallbackUrl": "https://singhub.zoryva.me/downloads/KaraokeStudio-TV-v2.0.7.apk",
+      "apkSize": 764135074
     },
     "host": {
       "applicationId": "com.karaokestudio.tv",
-      "versionCode": 9,
-      "versionName": "2.0.6",
-      "apkName": "KaraokeStudio-TV-v2.0.6.apk",
-      "apkUrl": "https://github.com/zoryvaxcinema-source/SING-HUB/releases/download/V2.0.6/KaraokeStudio-TV-v2.0.6.apk",
-      "fallbackUrl": "https://singhub.zoryva.me/downloads/KaraokeStudio-TV-v2.0.6.apk",
-      "apkSize": 764134826
+      "versionCode": 10,
+      "versionName": "2.0.7",
+      "apkName": "KaraokeStudio-TV-v2.0.7.apk",
+      "apkUrl": "https://github.com/zoryvaxcinema-source/SING-HUB/releases/download/V2.0.7/KaraokeStudio-TV-v2.0.7.apk",
+      "fallbackUrl": "https://singhub.zoryva.me/downloads/KaraokeStudio-TV-v2.0.7.apk",
+      "apkSize": 764135074
     },
     "remote": {
       "applicationId": "com.karaokestudio.remote",
-      "versionCode": 9,
-      "versionName": "2.0.6",
-      "apkName": "KaraokeStudio-Remote-v2.0.6.apk",
-      "apkUrl": "https://github.com/zoryvaxcinema-source/SING-HUB/releases/download/V2.0.6/KaraokeStudio-Remote-v2.0.6.apk",
-      "fallbackUrl": "https://singhub.zoryva.me/downloads/KaraokeStudio-Remote-v2.0.6.apk",
-      "apkSize": 4696095
+      "versionCode": 10,
+      "versionName": "2.0.7",
+      "apkName": "KaraokeStudio-Remote-v2.0.7.apk",
+      "apkUrl": "https://github.com/zoryvaxcinema-source/SING-HUB/releases/download/V2.0.7/KaraokeStudio-Remote-v2.0.7.apk",
+      "fallbackUrl": "https://singhub.zoryva.me/downloads/KaraokeStudio-Remote-v2.0.7.apk",
+      "apkSize": 4696338
     }
   }
 }
