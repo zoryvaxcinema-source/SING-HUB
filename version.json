@@ -9,7 +9,9 @@
     "Restored Stage Controller & Settings: fixed deck visibility toggle button and on-screen controller keypad with integrated TV FX Settings drawer",
     "Auto-Hide & Auto-Close Stage Controller: stage controller automatically closes and hides whenever TV Settings or modal drawers are open",
     "Smooth Playback Performance: eliminated fill-rate intensive blur filters in favor of hardware-accelerated text-stroke and single-pass shadow, eliminating TV playback lag and stutter",
-    "Live Settings & SoundFont Synchronization: real-time 0ms sync between Mobile Remote and TV Stage with active soundfont switching and user state preservation"
+    "Live Settings & SoundFont Synchronization: real-time 0ms sync between Mobile Remote and TV Stage with active soundfont switching and user state preservation",
+    "Lyric Visuals: Eliminated interior letter lines and artifacts",
+    "Guide Melody Control: True MIDI track velocity scaling for OFF, LOW, MID, HIGH live without interruption"
   ],
   "forceUpdate": false,
   "targets": {
@@ -20,7 +22,7 @@
       "apkName": "KaraokeStudio-TV-v2.0.8.apk",
       "apkUrl": "https://github.com/zoryvaxcinema-source/SING-HUB/releases/download/V2.0.8/KaraokeStudio-TV-v2.0.8.apk",
       "fallbackUrl": "https://singhub.zoryva.me/downloads/KaraokeStudio-TV-v2.0.8.apk",
-      "apkSize": 764135140
+      "apkSize": 764136860
     },
     "host": {
       "applicationId": "com.karaokestudio.tv",
@@ -29,7 +31,7 @@
       "apkName": "KaraokeStudio-TV-v2.0.8.apk",
       "apkUrl": "https://github.com/zoryvaxcinema-source/SING-HUB/releases/download/V2.0.8/KaraokeStudio-TV-v2.0.8.apk",
       "fallbackUrl": "https://singhub.zoryva.me/downloads/KaraokeStudio-TV-v2.0.8.apk",
-      "apkSize": 764135140
+      "apkSize": 764136860
     },
     "remote": {
       "applicationId": "com.karaokestudio.remote",
@@ -38,7 +40,7 @@
       "apkName": "KaraokeStudio-Remote-v2.0.8.apk",
       "apkUrl": "https://github.com/zoryvaxcinema-source/SING-HUB/releases/download/V2.0.8/KaraokeStudio-Remote-v2.0.8.apk",
       "fallbackUrl": "https://singhub.zoryva.me/downloads/KaraokeStudio-Remote-v2.0.8.apk",
-      "apkSize": 4696362
+      "apkSize": 4699152
     }
   }
 }
