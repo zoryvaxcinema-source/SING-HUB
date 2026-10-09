@@ -1,13 +1,13 @@
 ﻿{
-    "patchVersion":  2,
-    "patchName":  "v2",
+    "patchVersion":  3,
+    "patchName":  "v3",
     "releaseDate":  "2026-10-09",
     "minAppVersionCode":  13,
     "maxAppVersionCode":  999999,
-    "title":  "Singhub Web Hot-Patch v2",
-    "changelog":  "Fixed number 0-9 voice sound on TV, tablets, and mobile devices; made UP TO DATE text color white",
-    "patchUrl":  "https://singhub.zoryva.me/downloads/patches/singhub_web_patch_v2.zip",
-    "fallbackUrl":  "https://raw.githubusercontent.com/zoryvaxcinema-source/SING-HUB/main/patches/singhub_web_patch_v2.zip",
-    "patchSize":  1601510,
-    "sha256":  "34FE70F938B65F585A43763268FB7801D9B26150D283FB3A5A1CABCFCFA78643"
+    "title":  "Singhub Web Hot-Patch v3",
+    "changelog":  "v2.1.1: Audio on number 0-9 keys everywhere, white UP TO DATE text, clean solid lyrics, key/tempo - 0 + badges, dynamic randomized scoring",
+    "patchUrl":  "https://singhub.zoryva.me/downloads/patches/singhub_web_patch_v3.zip",
+    "fallbackUrl":  "https://raw.githubusercontent.com/zoryvaxcinema-source/SING-HUB/main/patches/singhub_web_patch_v3.zip",
+    "patchSize":  1601896,
+    "sha256":  "2359B4CAE53C81C6E52E921B8E77C286025A2F07B1A4782BD45D789B18E8DFBA"
 }
