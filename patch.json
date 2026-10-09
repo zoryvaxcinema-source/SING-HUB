@@ -1,13 +1,13 @@
 {
-    "patchVersion": 4,
-    "patchName": "v4",
+    "patchVersion": 5,
+    "patchName": "v5",
     "releaseDate": "2026-10-09",
     "minAppVersionCode": 13,
     "maxAppVersionCode": 999999,
-    "title": "Singhub Web Hot-Patch v4",
-    "changelog": "v2.1.2 Halloween Edition: Spooky theme overhaul, 3D animated spider & webs, pumpkin & witch buttons, white UP TO DATE text",
-    "patchUrl": "https://raw.githubusercontent.com/zoryvaxcinema-source/SING-HUB/main/patches/singhub_web_patch_v4.zip",
-    "fallbackUrl": "https://singhub.zoryva.me/downloads/patches/singhub_web_patch_v4.zip",
-    "patchSize": 1605390,
-    "sha256": "92353A49AF6656EE9D66607670C63364B69D90F63FC854E9D30685315F1CC277"
+    "title": "Singhub Web Hot-Patch v5 (Halloween Spooky Edition)",
+    "changelog": "v2.1.2 Halloween Spooky Edition: Complete visual overhaul for TV Stage settings & remote apps, glowing pumpkin & obsidian palette, pure white UP TO DATE status badges, 3D animated spider & cobwebs",
+    "patchUrl": "https://raw.githubusercontent.com/zoryvaxcinema-source/SING-HUB/main/patches/singhub_web_patch_v5.zip",
+    "fallbackUrl": "https://singhub.zoryva.me/downloads/patches/singhub_web_patch_v5.zip",
+    "patchSize": 1605837,
+    "sha256": "51D643E6926A2BBA8F7720C114D9FF5DEDD1DBACACD79E8C20A240B33C604474"
 }

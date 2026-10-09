@@ -1,7 +1,7 @@
 {
     "versionCode": 15,
     "versionName": "2.1.1",
-    "patchVersion": 4,
+    "patchVersion": 5,
     "minSupportedVersion": "1.0.0",
     "releaseDate": "2026-10-09",
     "title": "Karaoke Studio v2.1.1 (Halloween Edition)",
@@ -10,9 +10,9 @@
         "🕷️ 3D Animated Dangling Spider: Dynamic silken thread swing, bobbing abdomen, wiggling spider legs, and glowing crimson eyes",
         "🕸️ Spooky Corner Spiderwebs & Spirit Bats: Corner cobwebs, web crawlers, and drifting bats and ghosts",
         "🔥 Haunted Keypad & Action Buttons: Burning pumpkin flame Play button, toxic witch green Reserve button, and arcane purple 1st Res",
-        "🤍 White 'UP TO DATE' Text: Enforced pure white (#ffffff) styling for UP TO DATE status badges in TV Stage settings and remote",
+        "🤍 White 'UP TO DATE' Text: Enforced pure white (#ffffff) styling for UP TO DATE status badges in TV Stage settings and remote with glowing Halloween badges",
         "🎃 Spooky Fanfare Cheers: Festive scoring celebration cheering fanfare messages (Spooktacular Singer, Ghostly Phenomenon, Bewitching Performance)",
-        "⚡ Lightweight OTA Web Hot-Patch v4: Instant theme update (~1.5 MB) without redownloading the 764 MB full APK"
+        "⚡ Lightweight OTA Web Hot-Patch v5: Instant theme update (~1.5 MB) without redownloading the 764 MB full APK"
     ],
     "forceUpdate": false,
     "targets": {
