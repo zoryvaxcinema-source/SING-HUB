@@ -1,13 +1,13 @@
 {
-    "patchVersion": 5,
-    "patchName": "v5",
+    "patchVersion": 6,
+    "patchName": "v6",
     "releaseDate": "2026-10-09",
     "minAppVersionCode": 13,
     "maxAppVersionCode": 999999,
-    "title": "Singhub Web Hot-Patch v5 (Halloween Spooky Edition)",
-    "changelog": "v2.1.2 Halloween Spooky Edition: Complete visual overhaul for TV Stage settings & remote apps, glowing pumpkin & obsidian palette, pure white UP TO DATE status badges, 3D animated spider & cobwebs",
-    "patchUrl": "https://raw.githubusercontent.com/zoryvaxcinema-source/SING-HUB/main/patches/singhub_web_patch_v5.zip",
-    "fallbackUrl": "https://singhub.zoryva.me/downloads/patches/singhub_web_patch_v5.zip",
-    "patchSize": 1604360,
-    "sha256": "D7B87329064FC820422E2A66D5A9F15C9B6853039BFBDA2EA9A6169991F63F79"
+    "title": "Singhub Web Hot-Patch v6 (Clean Header & Repositioned Spider)",
+    "changelog": "Clean KARAOKE STUDIO header (removed pumpkins), removed floating bats and ghosts, repositioned web and spider below header so they never cover KARAOKE STUDIO and HOST.",
+    "patchUrl": "https://raw.githubusercontent.com/zoryvaxcinema-source/SING-HUB/main/patches/singhub_web_patch_v6.zip",
+    "fallbackUrl": "https://singhub.zoryva.me/downloads/patches/singhub_web_patch_v6.zip",
+    "patchSize": 1603983,
+    "sha256": "6DBFCF2CDBAE56F5175F9CB5E689E0102FD591868E96D510059E6E9A8DFD1E80"
 }
