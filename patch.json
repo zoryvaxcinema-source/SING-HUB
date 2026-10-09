@@ -1,13 +1,13 @@
 ﻿{
-    "patchVersion":  3,
-    "patchName":  "v3",
+    "patchVersion":  4,
+    "patchName":  "v4",
     "releaseDate":  "2026-10-09",
     "minAppVersionCode":  13,
     "maxAppVersionCode":  999999,
-    "title":  "Singhub Web Hot-Patch v3",
-    "changelog":  "v2.1.1: Audio on number 0-9 keys everywhere, white UP TO DATE text, clean solid lyrics, key/tempo - 0 + badges, dynamic randomized scoring",
-    "patchUrl":  "https://singhub.zoryva.me/downloads/patches/singhub_web_patch_v3.zip",
-    "fallbackUrl":  "https://raw.githubusercontent.com/zoryvaxcinema-source/SING-HUB/main/patches/singhub_web_patch_v3.zip",
-    "patchSize":  1601896,
-    "sha256":  "2359B4CAE53C81C6E52E921B8E77C286025A2F07B1A4782BD45D789B18E8DFBA"
+    "title":  "Singhub Web Hot-Patch v4",
+    "changelog":  "v2.1.2 Halloween Edition: Spooky theme overhaul, 3D animated spider \u0026 webs, pumpkin \u0026 witch buttons, white UP TO DATE text",
+    "patchUrl":  "https://singhub.zoryva.me/downloads/patches/singhub_web_patch_v4.zip",
+    "fallbackUrl":  "https://raw.githubusercontent.com/zoryvaxcinema-source/SING-HUB/main/patches/singhub_web_patch_v4.zip",
+    "patchSize":  1605409,
+    "sha256":  "F4C5F5F9475EE8AD86DA97E269A79C2BCAF60927A309ED267CA09ABB04404A6B"
 }

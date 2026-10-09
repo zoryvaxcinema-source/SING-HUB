@@ -1,46 +1,46 @@
-﻿{
-    "versionCode":  15,
-    "versionName":  "2.1.1",
-    "minSupportedVersion":  "1.0.0",
-    "releaseDate":  "2026-10-09",
-    "title":  "Karaoke Studio v2.1.1",
-    "changelog":  [
-                      "Voice Audio on Numbers 0-9: Plays crisp number voice audio instantly on physical TV remotes, on-screen keypads, mobile remotes, and tablets",
-                      "Clean Solid Lyrics (Sans \u0026 Impact): Completely eliminated inner letter contour lines with optimized subpixel antialiasing and paint order",
-                      "Stage Controller Key \u0026 Tempo Badges: Added - 0 + numeric readout badges for live pitch and tempo shifts matching mobile remote",
-                      "Dynamic Randomized Scoring: Live score formula based on Scoring Setup (Easy, Medium, Hard) and cheerleader celebration fanfares",
-                      "White \u0027UP TO DATE\u0027 Text: Updated status text and badge styling to pure white (#ffffff)",
-                      "Lightweight OTA Web Hot-Patching Engine: Instant updates without full APK downloads",
-                      "Full WebView Cache Busting: Instant asset reload and cache purge on upgrade"
-                  ],
-    "forceUpdate":  false,
-    "targets":  {
-                    "tv":  {
-                               "applicationId":  "com.karaokestudio.tv",
-                               "versionCode":  15,
-                               "versionName":  "2.1.1",
-                               "apkName":  "KaraokeStudio-TV-v2.1.1.apk",
-                               "apkUrl":  "https://github.com/zoryvaxcinema-source/SING-HUB/releases/download/V2.1.1/KaraokeStudio-TV-v2.1.1.apk",
-                               "fallbackUrl":  "https://singhub.zoryva.me/downloads/KaraokeStudio-TV-v2.1.1.apk",
-                               "apkSize":  764148620
-                           },
-                    "host":  {
-                                 "applicationId":  "com.karaokestudio.tv",
-                                 "versionCode":  15,
-                                 "versionName":  "2.1.1",
-                                 "apkName":  "KaraokeStudio-TV-v2.1.1.apk",
-                                 "apkUrl":  "https://github.com/zoryvaxcinema-source/SING-HUB/releases/download/V2.1.1/KaraokeStudio-TV-v2.1.1.apk",
-                                 "fallbackUrl":  "https://singhub.zoryva.me/downloads/KaraokeStudio-TV-v2.1.1.apk",
-                                 "apkSize":  764148620
-                             },
-                    "remote":  {
-                                   "applicationId":  "com.karaokestudio.remote",
-                                   "versionCode":  15,
-                                   "versionName":  "2.1.1",
-                                   "apkName":  "KaraokeStudio-Remote-v2.1.1.apk",
-                                   "apkUrl":  "https://github.com/zoryvaxcinema-source/SING-HUB/releases/download/V2.1.1/KaraokeStudio-Remote-v2.1.1.apk",
-                                   "fallbackUrl":  "https://singhub.zoryva.me/downloads/KaraokeStudio-Remote-v2.1.1.apk",
-                                   "apkSize":  4710772
-                               }
-                }
+{
+    "versionCode": 16,
+    "versionName": "2.1.2",
+    "minSupportedVersion": "1.0.0",
+    "releaseDate": "2026-10-09",
+    "title": "Karaoke Studio v2.1.2 (Halloween Edition)",
+    "changelog": [
+        "🎃 Halloween Spooky Theme: Complete visual overhaul for TV Stage and Mobile Remote apps with spooky obsidian & glowing pumpkin palette",
+        "🕷️ 3D Animated Dangling Spider: Dynamic silken thread swing, bobbing abdomen, wiggling spider legs, and glowing crimson eyes",
+        "🕸️ Spooky Corner Spiderwebs & Spirit Bats: Corner cobwebs, web crawlers, and drifting bats and ghosts",
+        "🔥 Haunted Keypad & Action Buttons: Burning pumpkin flame Play button, toxic witch green Reserve button, and arcane purple 1st Res",
+        "🤍 White 'UP TO DATE' Text: Enforced pure white (#ffffff) styling for UP TO DATE status badges in TV Stage settings and remote",
+        "🎃 Spooky Fanfare Cheers: Festive scoring celebration cheering fanfare messages (Spooktacular Singer, Ghostly Phenomenon, Bewitching Performance)",
+        "⚡ Lightweight OTA Web Hot-Patch v4: Instant theme update (~1.5 MB) without redownloading the 764 MB full APK"
+    ],
+    "forceUpdate": false,
+    "targets": {
+        "tv": {
+            "applicationId": "com.karaokestudio.tv",
+            "versionCode": 16,
+            "versionName": "2.1.2",
+            "apkName": "KaraokeStudio-TV-v2.1.2.apk",
+            "apkUrl": "https://github.com/zoryvaxcinema-source/SING-HUB/releases/download/V2.1.2/KaraokeStudio-TV-v2.1.2.apk",
+            "fallbackUrl": "https://singhub.zoryva.me/downloads/KaraokeStudio-TV-v2.1.2.apk",
+            "apkSize": 764148625
+        },
+        "host": {
+            "applicationId": "com.karaokestudio.tv",
+            "versionCode": 16,
+            "versionName": "2.1.2",
+            "apkName": "KaraokeStudio-TV-v2.1.2.apk",
+            "apkUrl": "https://github.com/zoryvaxcinema-source/SING-HUB/releases/download/V2.1.2/KaraokeStudio-TV-v2.1.2.apk",
+            "fallbackUrl": "https://singhub.zoryva.me/downloads/KaraokeStudio-TV-v2.1.2.apk",
+            "apkSize": 764148625
+        },
+        "remote": {
+            "applicationId": "com.karaokestudio.remote",
+            "versionCode": 16,
+            "versionName": "2.1.2",
+            "apkName": "KaraokeStudio-Remote-v2.1.2.apk",
+            "apkUrl": "https://github.com/zoryvaxcinema-source/SING-HUB/releases/download/V2.1.2/KaraokeStudio-Remote-v2.1.2.apk",
+            "fallbackUrl": "https://singhub.zoryva.me/downloads/KaraokeStudio-Remote-v2.1.2.apk",
+            "apkSize": 4714315
+        }
+    }
 }
