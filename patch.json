@@ -1,0 +1,13 @@
+﻿{
+    "patchVersion":  1,
+    "patchName":  "v1",
+    "releaseDate":  "2026-10-09",
+    "minAppVersionCode":  13,
+    "maxAppVersionCode":  999999,
+    "title":  "Singhub Web Hot-Patch v1",
+    "changelog":  "Fixed lyrics inner lines on Sans and Impact fonts, added Key and Tempo - 0 + numeric display badges, dynamic randomized scoring formula with cheerleader celebrations",
+    "patchUrl":  "https://singhub.zoryva.me/downloads/patches/singhub_web_patch_v1.zip",
+    "fallbackUrl":  "https://raw.githubusercontent.com/zoryvaxcinema-source/SING-HUB/main/patches/singhub_web_patch_v1.zip",
+    "patchSize":  1601222,
+    "sha256":  "618B629DC20D1949F360EDD660146DC7CF1527CC0C033D3ADC19497930115631"
+}
