@@ -1,13 +1,13 @@
 {
-    "patchVersion": 8,
-    "patchName": "v8",
+    "patchVersion": 9,
+    "patchName": "v9",
     "releaseDate": "2026-10-10",
     "minAppVersionCode": 13,
     "maxAppVersionCode": 999999,
-    "title": "Singhub Web Hot-Patch v8 (Natural Scoring Cheer & Clean Stage)",
-    "changelog": "Removed idle enter song number subtitle on TV Stage, restored classic natural scoring cheer text, and enhanced scoring screen with arcade glassmorphic showcase.",
-    "patchUrl": "https://raw.githubusercontent.com/zoryvaxcinema-source/SING-HUB/main/patches/singhub_web_patch_v8.zip",
-    "fallbackUrl": "https://singhub.zoryva.me/downloads/patches/singhub_web_patch_v8.zip",
-    "patchSize": 1605783,
-    "sha256": "820DC6459C4F5541159075C8580235CC9870BD31F1BF611B71A90F4212D3F008"
+    "title": "Singhub Web Hot-Patch v9 (No-Background Videoke Score & TV Performance Boost)",
+    "changelog": "Removed scoring background completely for pure karaoke vibes, removed backdrop blurs, eliminated layout reflow animations, and boosted TV stage video performance on low-spec devices.",
+    "patchUrl": "https://raw.githubusercontent.com/zoryvaxcinema-source/SING-HUB/main/patches/singhub_web_patch_v9.zip",
+    "fallbackUrl": "https://singhub.zoryva.me/downloads/patches/singhub_web_patch_v9.zip",
+    "patchSize": 1605785,
+    "sha256": "84351B8BD46142E950A15824AD9466E2FC47611D6E7029101050F80023E9CF4F"
 }
