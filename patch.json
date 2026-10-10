@@ -1,13 +1,13 @@
 {
-    "patchVersion": 6,
-    "patchName": "v6",
-    "releaseDate": "2026-10-09",
+    "patchVersion": 7,
+    "patchName": "v7",
+    "releaseDate": "2026-10-10",
     "minAppVersionCode": 13,
     "maxAppVersionCode": 999999,
-    "title": "Singhub Web Hot-Patch v6 (Clean Header & Repositioned Spider)",
-    "changelog": "Clean KARAOKE STUDIO header (removed pumpkins), removed floating bats and ghosts, repositioned web and spider below header so they never cover KARAOKE STUDIO and HOST.",
-    "patchUrl": "https://raw.githubusercontent.com/zoryvaxcinema-source/SING-HUB/main/patches/singhub_web_patch_v6.zip",
-    "fallbackUrl": "https://singhub.zoryva.me/downloads/patches/singhub_web_patch_v6.zip",
-    "patchSize": 1603983,
-    "sha256": "6DBFCF2CDBAE56F5175F9CB5E689E0102FD591868E96D510059E6E9A8DFD1E80"
+    "title": "Singhub Web Hot-Patch v7 (Full Header Web & Elevated Text)",
+    "changelog": "Web and 3D spider play on header all the way to the top corners, with KARAOKE STUDIO and HOST text layered strictly in front.",
+    "patchUrl": "https://raw.githubusercontent.com/zoryvaxcinema-source/SING-HUB/main/patches/singhub_web_patch_v7.zip",
+    "fallbackUrl": "https://singhub.zoryva.me/downloads/patches/singhub_web_patch_v7.zip",
+    "patchSize": 1604000,
+    "sha256": "2BE5A61E1E6FD3A3D01F2597F23F801B29D69C9911E8849EC33872233DE29630"
 }
