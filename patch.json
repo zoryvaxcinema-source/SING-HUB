@@ -1,13 +1,13 @@
 {
-    "patchVersion": 7,
-    "patchName": "v7",
+    "patchVersion": 8,
+    "patchName": "v8",
     "releaseDate": "2026-10-10",
     "minAppVersionCode": 13,
     "maxAppVersionCode": 999999,
-    "title": "Singhub Web Hot-Patch v7 (Full Header Web & Elevated Text)",
-    "changelog": "Web and 3D spider play on header all the way to the top corners, with KARAOKE STUDIO and HOST text layered strictly in front.",
-    "patchUrl": "https://raw.githubusercontent.com/zoryvaxcinema-source/SING-HUB/main/patches/singhub_web_patch_v7.zip",
-    "fallbackUrl": "https://singhub.zoryva.me/downloads/patches/singhub_web_patch_v7.zip",
-    "patchSize": 1604000,
-    "sha256": "2BE5A61E1E6FD3A3D01F2597F23F801B29D69C9911E8849EC33872233DE29630"
+    "title": "Singhub Web Hot-Patch v8 (Natural Scoring Cheer & Clean Stage)",
+    "changelog": "Removed idle enter song number subtitle on TV Stage, restored classic natural scoring cheer text, and enhanced scoring screen with arcade glassmorphic showcase.",
+    "patchUrl": "https://raw.githubusercontent.com/zoryvaxcinema-source/SING-HUB/main/patches/singhub_web_patch_v8.zip",
+    "fallbackUrl": "https://singhub.zoryva.me/downloads/patches/singhub_web_patch_v8.zip",
+    "patchSize": 1605783,
+    "sha256": "820DC6459C4F5541159075C8580235CC9870BD31F1BF611B71A90F4212D3F008"
 }
