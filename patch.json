@@ -1,13 +1,13 @@
-{
-    "patchVersion": 12,
-    "patchName": "v12",
-    "releaseDate": "2026-10-11",
-    "minAppVersionCode": 13,
-    "maxAppVersionCode": 999999,
-    "title": "Singhub Web Hot-Patch v12 (Zero-Stutter Video Engine & Low-Spec Boost)",
-    "changelog": "Optimized background video streaming with 64KB buffering and media cache headers, zero-reload seamless playback, lightweight linear GPU vignette, and fluid 60 FPS spider animations.",
-    "patchUrl": "https://raw.githubusercontent.com/zoryvaxcinema-source/SING-HUB/main/patches/singhub_web_patch_v12.zip",
-    "fallbackUrl": "https://singhub.zoryva.me/downloads/patches/singhub_web_patch_v12.zip",
-    "patchSize": 1604224,
-    "sha256": "ADB578D22DDEB13DE6503132ADAEEA170EDA7E36B633C4709F9906977165AA9E"
+﻿{
+    "patchVersion":  13,
+    "patchName":  "v13",
+    "releaseDate":  "2026-10-11",
+    "minAppVersionCode":  13,
+    "maxAppVersionCode":  999999,
+    "title":  "Singhub Web Hot-Patch v13",
+    "changelog":  "Fixed photo background mode sticking across song starts, silky smooth score screen, smaller spiders and webs, and TV system volume preservation",
+    "patchUrl":  "https://singhub.zoryva.me/downloads/patches/singhub_web_patch_v13.zip",
+    "fallbackUrl":  "https://raw.githubusercontent.com/zoryvaxcinema-source/SING-HUB/main/patches/singhub_web_patch_v13.zip",
+    "patchSize":  1606579,
+    "sha256":  "903D794FE8B7D525E242E720E841C9D94C2FD2342C39C2B37BC2912F67A02DF9"
 }
