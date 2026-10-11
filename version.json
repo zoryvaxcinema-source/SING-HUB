@@ -1,18 +1,15 @@
 {
     "versionCode": 16,
     "versionName": "2.1.2",
-    "patchVersion": 9,
+    "patchVersion": 10,
     "minSupportedVersion": "1.0.0",
-    "releaseDate": "2026-10-09",
-    "title": "Karaoke Studio v2.1.2 (Halloween Edition)",
+    "releaseDate": "2026-10-11",
+    "title": "Karaoke Studio v2.1.2 (Halloween Edition - Performance & Nav Boost)",
     "changelog": [
-        "🎃 Halloween Spooky Theme: Complete visual overhaul for TV Stage and Mobile Remote apps with spooky obsidian & glowing pumpkin palette",
-        "🕷️ 3D Animated Dangling Spider: Dynamic silken thread swing, bobbing abdomen, wiggling spider legs, and glowing crimson eyes",
-        "🕸️ Spooky Corner Spiderwebs & Spirit Bats: Corner cobwebs, web crawlers, and drifting bats and ghosts",
-        "🔥 Haunted Keypad & Action Buttons: Burning pumpkin flame Play button, toxic witch green Reserve button, and arcane purple 1st Res",
-        "🤍 White 'UP TO DATE' Text: Enforced pure white (#ffffff) styling for UP TO DATE status badges in TV Stage settings and remote with glowing Halloween badges",
-        "🎃 Spooky Fanfare Cheers: Festive scoring celebration cheering fanfare messages (Spooktacular Singer, Ghostly Phenomenon, Bewitching Performance)",
-        "⚡ Lightweight OTA Web Hot-Patch v5: Instant theme update (~1.5 MB) without redownloading the 764 MB full APK"
+        "⚡ Instant D-Pad Navigation: Removed debouncing lockout & smooth-scroll queuing for ultra-fast remote navigation without dropped keypresses",
+        "🕷️ Zero-Overhead Spider Animations: Converted spider web swing & leg crawling to 100% GPU composite transforms with active 60 FPS animation",
+        "👻 Videoke Scoring UI: Clean transparent background for natural karaoke vibes with crisp score fanfare",
+        "🎃 Halloween Spooky Theme: Obsidian & glowing pumpkin palette with crisp white up-to-date badges"
     ],
     "forceUpdate": false,
     "targets": {

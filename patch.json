@@ -1,13 +1,13 @@
 {
-    "patchVersion": 9,
-    "patchName": "v9",
-    "releaseDate": "2026-10-10",
+    "patchVersion": 10,
+    "patchName": "v10",
+    "releaseDate": "2026-10-11",
     "minAppVersionCode": 13,
     "maxAppVersionCode": 999999,
-    "title": "Singhub Web Hot-Patch v9 (No-Background Videoke Score & TV Performance Boost)",
-    "changelog": "Removed scoring background completely for pure karaoke vibes, removed backdrop blurs, eliminated layout reflow animations, and boosted TV stage video performance on low-spec devices.",
-    "patchUrl": "https://raw.githubusercontent.com/zoryvaxcinema-source/SING-HUB/main/patches/singhub_web_patch_v9.zip",
-    "fallbackUrl": "https://singhub.zoryva.me/downloads/patches/singhub_web_patch_v9.zip",
-    "patchSize": 1605785,
-    "sha256": "84351B8BD46142E950A15824AD9466E2FC47611D6E7029101050F80023E9CF4F"
+    "title": "Singhub Web Hot-Patch v10 (Instant Navigation & Zero-Overhead Spider Animations)",
+    "changelog": "Instant snappy D-Pad navigation without dropped keystrokes or smooth-scroll queuing, and converted all spider animations to 100% GPU composite transforms with zero overhead for smooth 60 FPS on low specs.",
+    "patchUrl": "https://raw.githubusercontent.com/zoryvaxcinema-source/SING-HUB/main/patches/singhub_web_patch_v10.zip",
+    "fallbackUrl": "https://singhub.zoryva.me/downloads/patches/singhub_web_patch_v10.zip",
+    "patchSize": 1603924,
+    "sha256": "0865FB26DEC2E0C7177F2E00968E21328ED5D018918988EC052221ADBD33356D"
 }
