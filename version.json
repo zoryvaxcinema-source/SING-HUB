@@ -1,43 +1,43 @@
 {
-    "versionCode": 16,
-    "versionName": "2.1.2",
-    "patchVersion": 10,
+    "versionCode": 17,
+    "versionName": "2.1.3",
+    "patchVersion": 11,
     "minSupportedVersion": "1.0.0",
     "releaseDate": "2026-10-11",
-    "title": "Karaoke Studio v2.1.2 (Halloween Edition - Performance & Nav Boost)",
+    "title": "Karaoke Studio v2.1.3 (Ultra Smooth Edition)",
     "changelog": [
-        "\u26a1 Instant D-Pad Navigation: Removed debouncing lockout & smooth-scroll queuing for ultra-fast remote navigation without dropped keypresses",
-        "\ud83d\udd77\ufe0f Zero-Overhead Spider Animations: Converted spider web swing & leg crawling to 100% GPU composite transforms with active 60 FPS animation",
-        "\ud83d\udc7b Videoke Scoring UI: Clean transparent background for natural karaoke vibes with crisp score fanfare",
-        "\ud83c\udf83 Halloween Spooky Theme: Obsidian & glowing pumpkin palette with crisp white up-to-date badges"
+        "⚡ Zero-Latency D-Pad Navigation: Fine-tuned 90-100ms debouncing and eliminated microsecond key jitter so remote clicks never drop",
+        "🕷️ 60 FPS Spider & Cobweb Rigs: GPU layout containment & layer isolation keep hanging & crawling spider animations completely fluid without lagging video",
+        "🎤 Pure Videoke Scoring: Full transparent background with vivid glowing title gradient and authentic videoke fanfare numbers",
+        "🤍 Crisp Halloween Up-to-Date Badges: High-contrast white status indicators with glowing obsidian borders"
     ],
     "forceUpdate": false,
     "targets": {
         "tv": {
             "applicationId": "com.karaokestudio.tv",
-            "versionCode": 16,
-            "versionName": "2.1.2",
-            "apkName": "KaraokeStudio-TV-v2.1.2.apk",
-            "apkUrl": "https://github.com/zoryvaxcinema-source/SING-HUB/releases/download/V2.1.2/KaraokeStudio-TV-v2.1.2.apk",
-            "fallbackUrl": "https://singhub.zoryva.me/downloads/KaraokeStudio-TV-v2.1.2.apk",
+            "versionCode": 17,
+            "versionName": "2.1.3",
+            "apkName": "KaraokeStudio-TV-v2.1.3.apk",
+            "apkUrl": "https://github.com/zoryvaxcinema-source/SING-HUB/releases/download/V2.1.3/KaraokeStudio-TV-v2.1.3.apk",
+            "fallbackUrl": "https://singhub.zoryva.me/downloads/KaraokeStudio-TV-v2.1.3.apk",
             "apkSize": 764153612
         },
         "host": {
             "applicationId": "com.karaokestudio.tv",
-            "versionCode": 16,
-            "versionName": "2.1.2",
-            "apkName": "KaraokeStudio-TV-v2.1.2.apk",
-            "apkUrl": "https://github.com/zoryvaxcinema-source/SING-HUB/releases/download/V2.1.2/KaraokeStudio-TV-v2.1.2.apk",
-            "fallbackUrl": "https://singhub.zoryva.me/downloads/KaraokeStudio-TV-v2.1.2.apk",
+            "versionCode": 17,
+            "versionName": "2.1.3",
+            "apkName": "KaraokeStudio-TV-v2.1.3.apk",
+            "apkUrl": "https://github.com/zoryvaxcinema-source/SING-HUB/releases/download/V2.1.3/KaraokeStudio-TV-v2.1.3.apk",
+            "fallbackUrl": "https://singhub.zoryva.me/downloads/KaraokeStudio-TV-v2.1.3.apk",
             "apkSize": 764153612
         },
         "remote": {
             "applicationId": "com.karaokestudio.remote",
-            "versionCode": 16,
-            "versionName": "2.1.2",
-            "apkName": "KaraokeStudio-Remote-v2.1.2.apk",
-            "apkUrl": "https://github.com/zoryvaxcinema-source/SING-HUB/releases/download/V2.1.2/KaraokeStudio-Remote-v2.1.2.apk",
-            "fallbackUrl": "https://singhub.zoryva.me/downloads/KaraokeStudio-Remote-v2.1.2.apk",
+            "versionCode": 17,
+            "versionName": "2.1.3",
+            "apkName": "KaraokeStudio-Remote-v2.1.3.apk",
+            "apkUrl": "https://github.com/zoryvaxcinema-source/SING-HUB/releases/download/V2.1.3/KaraokeStudio-Remote-v2.1.3.apk",
+            "fallbackUrl": "https://singhub.zoryva.me/downloads/KaraokeStudio-Remote-v2.1.3.apk",
             "apkSize": 4714781
         }
     }
