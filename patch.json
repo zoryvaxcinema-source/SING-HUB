@@ -1,13 +1,13 @@
 ﻿{
-    "patchVersion":  13,
-    "patchName":  "v13",
-    "releaseDate":  "2026-10-11",
+    "patchVersion":  14,
+    "patchName":  "v14",
+    "releaseDate":  "2026-10-13",
     "minAppVersionCode":  13,
     "maxAppVersionCode":  999999,
-    "title":  "Singhub Web Hot-Patch v13",
-    "changelog":  "Fixed photo background mode sticking across song starts, silky smooth score screen, smaller spiders and webs, and TV system volume preservation",
-    "patchUrl":  "https://singhub.zoryva.me/downloads/patches/singhub_web_patch_v13.zip",
-    "fallbackUrl":  "https://raw.githubusercontent.com/zoryvaxcinema-source/SING-HUB/main/patches/singhub_web_patch_v13.zip",
-    "patchSize":  1606579,
-    "sha256":  "903D794FE8B7D525E242E720E841C9D94C2FD2342C39C2B37BC2912F67A02DF9"
+    "title":  "Singhub Web Hot-Patch v14",
+    "changelog":  "Optimized background video streaming, persistent media cache headers, low-spec TV GPU silhouette shadows, and zero-allocation song search",
+    "patchUrl":  "https://singhub.zoryva.me/downloads/patches/singhub_web_patch_v14.zip",
+    "fallbackUrl":  "https://raw.githubusercontent.com/zoryvaxcinema-source/SING-HUB/main/patches/singhub_web_patch_v14.zip",
+    "patchSize":  1606479,
+    "sha256":  "5ABBF56F5787F68FFC9F111A5FD2B006A525688BB100847946823391161B7BF0"
 }
