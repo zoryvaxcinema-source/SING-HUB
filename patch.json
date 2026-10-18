@@ -1,13 +1,13 @@
-﻿{
-    "patchVersion":  14,
-    "patchName":  "v14",
-    "releaseDate":  "2026-10-13",
+{
+    "patchVersion":  15,
+    "patchName":  "v15",
+    "releaseDate":  "2026-10-18",
     "minAppVersionCode":  13,
     "maxAppVersionCode":  999999,
-    "title":  "Singhub Web Hot-Patch v14",
-    "changelog":  "Optimized background video streaming, persistent media cache headers, low-spec TV GPU silhouette shadows, and zero-allocation song search",
-    "patchUrl":  "https://singhub.zoryva.me/downloads/patches/singhub_web_patch_v14.zip",
-    "fallbackUrl":  "https://raw.githubusercontent.com/zoryvaxcinema-source/SING-HUB/main/patches/singhub_web_patch_v14.zip",
-    "patchSize":  1606479,
-    "sha256":  "5ABBF56F5787F68FFC9F111A5FD2B006A525688BB100847946823391161B7BF0"
+    "title":  "Singhub Web Hot-Patch v15",
+    "changelog":  "Black screen fix: background boot + watchdog, WebView renderer-crash auto-recovery, capped reload backoff, BGV retry limit with photo fallback, low-spec TV animation freeze, memory and fd leak fixes",
+    "patchUrl":  "https://singhub.zoryva.me/downloads/patches/singhub_web_patch_v15.zip",
+    "fallbackUrl":  "https://raw.githubusercontent.com/zoryvaxcinema-source/SING-HUB/main/patches/singhub_web_patch_v15.zip",
+    "patchSize":  1609972,
+    "sha256":  "28CDAA2C93E0EF8E40FF32C4DE1024FFFB2780B25CA70078677AE5463BC948D0"
 }

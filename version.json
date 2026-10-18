@@ -1,45 +1,47 @@
 {
-    "versionCode": 17,
-    "versionName": "2.1.3",
-    "patchVersion": 14,
+    "versionCode": 18,
+    "versionName": "2.1.4",
+    "patchVersion": 15,
     "minSupportedVersion": "1.0.0",
-    "releaseDate": "2026-10-13",
-    "title": "Karaoke Studio v2.1.3 (Zero-Lag TV GPU & Low-End TV Video Fix)",
+    "releaseDate": "2026-10-18",
+    "title": "Karaoke Studio v2.1.4 (Black Screen Fix & Low-End TV Reliability)",
     "changelog": [
-        "🎬 Low-End TV Video Fix: Eliminated background video stutter with HTTP 206 partial range streaming & media cache headers",
-        "⚡ GPU Silhouette Shadows: Replaced multi-pass Gaussian blur filters with ultra-lightweight shadows, saving 75% GPU fill rate",
-        "🕷️ Smart Animation Throttling: Pauses background decorative spider animations during singing to dedicate 100% GPU to lyrics & video",
-        "🔍 Zero-Allocation Song Search: Precomputed search keys across 48,000 songs, eliminating ART GC stutter pauses",
-        "🎧 MPX Vocal Isolation: Preserved stereophonic left/right channel isolation during fadeout and playback"
+        "🛡️ Black Screen Fix: TV app boots fully in the background with a startup watchdog — no more frozen black stage on low-end boxes",
+        "🖥️ Renderer Crash Recovery: WebView automatically rebuilds after a GPU renderer crash instead of staying blank forever",
+        "🔁 Smart Reload Backoff: capped, spaced-out page retries eliminate the infinite reload loop on flaky Wi-Fi",
+        "🎬 Background Video Guard: dead BGV videos retry a max of 4 times then fall back to photo mode",
+        "✨ Low-Spec TV Mode: devices with ≤2GB RAM automatically freeze decorative animations and drop heavy GPU filters",
+        "🧠 Memory Leak Fixes: LRU MIDI cache, file-descriptor leak patch, and atomic queue updates for smooth 24/7 sessions",
+        "🎵 Reliable Seek & Resume: RFC-correct range streaming; lyric timings now follow the tempo/key shift"
     ],
     "forceUpdate": false,
     "targets": {
         "tv": {
             "applicationId": "com.karaokestudio.tv",
-            "versionCode": 17,
-            "versionName": "2.1.3",
-            "apkName": "KaraokeStudio-TV-v2.1.3.apk",
-            "apkUrl": "https://github.com/zoryvaxcinema-source/SING-HUB/releases/download/V2.1.3/KaraokeStudio-TV-v2.1.3.apk",
-            "fallbackUrl": "https://singhub.zoryva.me/downloads/KaraokeStudio-TV-v2.1.3.apk",
-            "apkSize": 764154455
+            "versionCode": 18,
+            "versionName": "2.1.4",
+            "apkName": "KaraokeStudio-TV-v2.1.4.apk",
+            "apkUrl": "https://github.com/zoryvaxcinema-source/SING-HUB/releases/download/V2.1.4/KaraokeStudio-TV-v2.1.4.apk",
+            "fallbackUrl": "https://singhub.zoryva.me/downloads/KaraokeStudio-TV-v2.1.4.apk",
+            "apkSize": 764157102
         },
         "host": {
             "applicationId": "com.karaokestudio.tv",
-            "versionCode": 17,
-            "versionName": "2.1.3",
-            "apkName": "KaraokeStudio-TV-v2.1.3.apk",
-            "apkUrl": "https://github.com/zoryvaxcinema-source/SING-HUB/releases/download/V2.1.3/KaraokeStudio-TV-v2.1.3.apk",
-            "fallbackUrl": "https://singhub.zoryva.me/downloads/KaraokeStudio-TV-v2.1.3.apk",
+            "versionCode": 18,
+            "versionName": "2.1.4",
+            "apkName": "KaraokeStudio-TV-v2.1.4.apk",
+            "apkUrl": "https://github.com/zoryvaxcinema-source/SING-HUB/releases/download/V2.1.4/KaraokeStudio-TV-v2.1.4.apk",
+            "fallbackUrl": "https://singhub.zoryva.me/downloads/KaraokeStudio-TV-v2.1.4.apk",
             "apkSize": 764154455
         },
         "remote": {
             "applicationId": "com.karaokestudio.remote",
-            "versionCode": 17,
-            "versionName": "2.1.3",
-            "apkName": "KaraokeStudio-Remote-v2.1.3.apk",
-            "apkUrl": "https://github.com/zoryvaxcinema-source/SING-HUB/releases/download/V2.1.3/KaraokeStudio-Remote-v2.1.3.apk",
-            "fallbackUrl": "https://singhub.zoryva.me/downloads/KaraokeStudio-Remote-v2.1.3.apk",
-            "apkSize": 4716519
+            "versionCode": 18,
+            "versionName": "2.1.4",
+            "apkName": "KaraokeStudio-Remote-v2.1.4.apk",
+            "apkUrl": "https://github.com/zoryvaxcinema-source/SING-HUB/releases/download/V2.1.4/KaraokeStudio-Remote-v2.1.4.apk",
+            "fallbackUrl": "https://singhub.zoryva.me/downloads/KaraokeStudio-Remote-v2.1.4.apk",
+            "apkSize": 4722590
         }
     }
 }
