@@ -1,0 +1,94 @@
+﻿{
+    "packVersion":  "2026-10-28",
+    "releaseTag":  "R2026-RES-v1",
+    "repository":  "zoryvaxcinema-source/SING-HUB",
+    "saveDir":  "/sdcard/Singhub",
+    "encryptionNote":  "Legacy all-in-one singhub_resources.zip uses ZipCrypto password \u0027Singhub@2026#SecureVault\u0027",
+    "files":  [
+                  {
+                      "name":  "shubidx",
+                      "size":  1797052,
+                      "sha256":  "D748DF7F5982BABA2FA99D7B178272033812775F3638B297CAA45661C435CB06",
+                      "description":  "Song database index (40,000+ songs)",
+                      "distribution":  [
+                                           "release-asset",
+                                           "github-raw"
+                                       ]
+                  },
+                  {
+                      "name":  "bgphoto.jpg",
+                      "size":  650727,
+                      "sha256":  "45FEEB258316B3BCBE6394CCD44A783B3F24AF5AABA03A483187D4CE7F36E2B9",
+                      "description":  "Default background photo",
+                      "distribution":  [
+                                           "release-asset",
+                                           "github-raw"
+                                       ]
+                  },
+                  {
+                      "name":  "bgv.mp4",
+                      "size":  8951088,
+                      "sha256":  "3D1462474CC7D7E3D9B8D3C8CD8C780106F60E2862C733447D72E09E4CD93C74",
+                      "description":  "Default background video loop",
+                      "distribution":  [
+                                           "release-asset",
+                                           "github-raw"
+                                       ]
+                  },
+                  {
+                      "name":  "SAM5504B.sf2",
+                      "size":  132047676,
+                      "sha256":  "63B14CAA66A19FE4EDB7FC661CB1C0F46DD979B615246A69F9AD150AF56E856F",
+                      "description":  "Dream SAM5504B Studio soundfont (MIDI synthesizer voices)",
+                      "distribution":  [
+                                           "release-asset"
+                                       ]
+                  },
+                  {
+                      "name":  "shubblob",
+                      "size":  606828544,
+                      "sha256":  "4E71F9D3B520832B59B6B0B94766FF059018C85A920A0F2D0A592A2BD54845EF",
+                      "description":  "Encrypted song library blob (40,000+ karaoke MIDI/lrc tracks)",
+                      "distribution":  [
+                                           "release-asset"
+                                       ]
+                  }
+              ],
+    "soundfonts": [
+        {
+            "name": "Roland SC-55.sf2",
+            "size": 9162316,
+            "sha256": "1EF3375656B5E7BE2F3A50448D8D38F4872999F2CA5BAE3D763B12124B7E0959",
+            "description": "Roland SC-55 Sound Canvas General MIDI soundfont (9 MB, low-RAM friendly)",
+            "distribution": ["release-asset", "github-raw"]
+        },
+        {
+            "name": "WinLive Karaoke Mobile.sf2",
+            "size": 15471470,
+            "sha256": "BDC21A647283645E6CC8DB90356AE6E52F8E25490C9DAE8DE21C70561CA1D13F",
+            "description": "WinLive Karaoke Mobile SoundFont (15 MB, vocal & instrument optimized)",
+            "distribution": ["release-asset", "github-raw"]
+        },
+        {
+            "name": "QS6400.sf2",
+            "size": 18371156,
+            "sha256": "D69A9B7E38BA3E5DEC25CCC583D7400898A275CFFA528728FCFC5BEFEFBFA57D",
+            "description": "QS6400 SoundFont (18 MB)",
+            "distribution": ["release-asset"]
+        },
+        {
+            "name": "reyna se.sf2",
+            "size": 20368642,
+            "sha256": "AF3371D87660D45F0F1B6497188A07127143E68DB3B51FF8FF37634238CCEBC9",
+            "description": "Reyna SE SoundFont (20 MB)",
+            "distribution": ["release-asset"]
+        },
+        {
+            "name": "Winlive Pro Mobile v1.0.sf2",
+            "size": 42124710,
+            "sha256": "C3D7676D9E081FAED9707505878CC077D349200FC2648F5161A2A44D57586EAD",
+            "description": "WinLive Pro Mobile v1.0 SoundFont (42 MB)",
+            "distribution": ["release-asset"]
+        }
+    ]
+}

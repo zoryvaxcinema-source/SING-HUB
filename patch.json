@@ -3,7 +3,7 @@
     "patchName":  "v15",
     "releaseDate":  "2026-10-18",
     "minAppVersionCode":  13,
-    "maxAppVersionCode":  999999,
+    "maxAppVersionCode":  18,
     "title":  "Singhub Web Hot-Patch v15",
     "changelog":  "Black screen fix: background boot + watchdog, WebView renderer-crash auto-recovery, capped reload backoff, BGV retry limit with photo fallback, low-spec TV animation freeze, memory and fd leak fixes",
     "patchUrl":  "https://singhub.zoryva.me/downloads/patches/singhub_web_patch_v15.zip",

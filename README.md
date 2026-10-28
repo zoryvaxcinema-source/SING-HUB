@@ -1,21 +1,27 @@
 ﻿# SING-HUB
 
-Official **Karaoke Studio** APK downloads.
+Official **Karaoke Studio** APK downloads and resource-pack metadata.
 
-## Downloads (v2.1.4)
+## Downloads (v2.2.1)
 
-- [Karaoke Studio TV (Host)](https://github.com/zoryvaxcinema-source/SING-HUB/releases/download/V2.1.4/KaraokeStudio-TV-v2.1.4.apk) *(764 MB, Android 7.0+)*
-- [Karaoke Studio Remote](https://github.com/zoryvaxcinema-source/SING-HUB/releases/download/V2.1.4/KaraokeStudio-Remote-v2.1.4.apk) *(4.7 MB, Android 6.0+)*
+- [Karaoke Studio TV (Host)](https://github.com/zoryvaxcinema-source/SING-HUB/releases/download/V2.2.1/KaraokeStudio-TV-v2.2.1.apk) *(13.3 MB — resources download separately, Android 5.0+)*
+- [Karaoke Studio Remote](https://github.com/zoryvaxcinema-source/SING-HUB/releases/download/V2.2.1/KaraokeStudio-Remote-v2.2.1.apk) *(11.6 MB, Android 5.0+)*
 
-### v2.1.4 — Black Screen Fix & Low-End TV Reliability
+### v2.2.1 — Per-Song Lyric Sync, Capability Gating & Enhanced SoundFont Collection
 
-- 🛡️ Black screen fix: fully backgrounded boot with watchdog recovery — no more frozen black stage on low-end TV boxes
-- 🖥️ WebView renderer-crash auto-recovery (stage rebuilds instead of staying blank)
-- 🔁 Capped reload backoff — no more infinite reload loops on flaky Wi-Fi
-- 🎬 Background-video retry limit with photo-mode fallback when the BGV pack is missing
-- ✨ Low-Spec TV Mode (≤2GB RAM): decorative animations freeze, heavy GPU filters drop
-- 🧠 Memory & fd leak fixes (LRU MIDI cache, blob I/O locking, atomic queue updates)
-- 🎵 RFC-correct range streaming (reliable seek/resume); lyric timings follow tempo/key shift
+- 📦 Ultra-Slim TV APK: the song library (48,000+ songs), Soundfonts, and background media download through the in-app installer with **HTTP Range resume + SHA-256 verification**.
+- ⏱️ **Per-Song Lyric Sync (±30s):** fine-tune lyric timing in 0.1s steps via remote or deck; settings persist per song across restarts.
+- 🎹 **Expanded SoundFont Collection:** Dream SAM5504B Studio default, plus Roland SC-55 (9 MB), WinLive Karaoke Mobile (15 MB), QS6400, Reyna SE, and more available for instant switching.
+- ⬇️ Download progress, retries, and errors mirrored live to the phone remote app.
+- 🔐 Real certificate validation for updates and resources.
+
+### Resource Pack (R2026-RES-v1)
+
+The TV app downloads the pack from this release:
+[Releases → R2026-RES-v1](https://github.com/zoryvaxcinema-source/SING-HUB/releases/tag/R2026-RES-v1)
+
+Core pack files (`shubidx`, `bgphoto.jpg`, `bgv.mp4`, `SAM5504B.sf2`, `shubblob`) plus SoundFont Collection — see
+[resources/resources.json](resources/resources.json) for exact sizes and SHA-256 digests.
 
 Older releases are available under [Releases](https://github.com/zoryvaxcinema-source/SING-HUB/releases).
 
