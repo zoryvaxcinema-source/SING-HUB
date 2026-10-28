@@ -1,60 +1,83 @@
 ﻿{
-    "packVersion":  "2026-10-28",
-    "releaseTag":  "R2026-RES-v1",
-    "repository":  "zoryvaxcinema-source/SING-HUB",
-    "saveDir":  "/sdcard/Singhub",
-    "encryptionNote":  "Legacy all-in-one singhub_resources.zip uses ZipCrypto password \u0027Singhub@2026#SecureVault\u0027",
-    "files":  [
-                  {
-                      "name":  "shubidx",
-                      "size":  1797052,
-                      "sha256":  "D748DF7F5982BABA2FA99D7B178272033812775F3638B297CAA45661C435CB06",
-                      "description":  "Song database index (40,000+ songs)",
-                      "distribution":  [
-                                           "release-asset",
-                                           "github-raw"
-                                       ]
-                  },
-                  {
-                      "name":  "bgphoto.jpg",
-                      "size":  650727,
-                      "sha256":  "45FEEB258316B3BCBE6394CCD44A783B3F24AF5AABA03A483187D4CE7F36E2B9",
-                      "description":  "Default background photo",
-                      "distribution":  [
-                                           "release-asset",
-                                           "github-raw"
-                                       ]
-                  },
-                  {
-                      "name":  "bgv.mp4",
-                      "size":  8951088,
-                      "sha256":  "3D1462474CC7D7E3D9B8D3C8CD8C780106F60E2862C733447D72E09E4CD93C74",
-                      "description":  "Default background video loop",
-                      "distribution":  [
-                                           "release-asset",
-                                           "github-raw"
-                                       ]
-                  },
-                  {
-                      "name":  "SAM5504B.sf2",
-                      "size":  132047676,
-                      "sha256":  "63B14CAA66A19FE4EDB7FC661CB1C0F46DD979B615246A69F9AD150AF56E856F",
-                      "description":  "Dream SAM5504B Studio soundfont (MIDI synthesizer voices)",
-                      "distribution":  [
-                                           "release-asset"
-                                       ]
-                  },
-                  {
-                      "name":  "shubblob",
-                      "size":  606828544,
-                      "sha256":  "4E71F9D3B520832B59B6B0B94766FF059018C85A920A0F2D0A592A2BD54845EF",
-                      "description":  "Encrypted song library blob (40,000+ karaoke MIDI/lrc tracks)",
-                      "distribution":  [
-                                           "release-asset"
-                                       ]
-                  }
-              ],
+    "packVersion": "2026-10-28",
+    "releaseTag": "R2026-RES-v1",
+    "repository": "zoryvaxcinema-source/SING-HUB",
+    "saveDir": "/sdcard/Singhub",
+    "encryptionNote": "Legacy all-in-one singhub_resources.zip uses ZipCrypto password 'Singhub@2026#SecureVault'",
+    "files": [
+        {
+            "name": "shubidx",
+            "size": 1797052,
+            "sha256": "D748DF7F5982BABA2FA99D7B178272033812775F3638B297CAA45661C435CB06",
+            "description": "Song database index (48,000+ songs)",
+            "distribution": [
+                "release-asset",
+                "github-raw"
+            ]
+        },
+        {
+            "name": "bgphoto.jpg",
+            "size": 650727,
+            "sha256": "45FEEB258316B3BCBE6394CCD44A783B3F24AF5AABA03A483187D4CE7F36E2B9",
+            "description": "Default background photo",
+            "distribution": [
+                "release-asset",
+                "github-raw"
+            ]
+        },
+        {
+            "name": "bgv.mp4",
+            "size": 8951088,
+            "sha256": "3D1462474CC7D7E3D9B8D3C8CD8C780106F60E2862C733447D72E09E4CD93C74",
+            "description": "Default background video loop (Platinum 1080p Event 3)",
+            "distribution": [
+                "release-asset",
+                "github-raw"
+            ]
+        },
+        {
+            "name": "soundfont.sf2",
+            "size": 98574116,
+            "sha256": "D63DE87525CCE532591D91C394FDD1F356AEB970491FB3472AA3A28A266825FD",
+            "description": "SongHub reSAM 16 SoundFont (98.5 MB, high-definition Filipino videoke audio & custom sampled percussion)",
+            "distribution": [
+                "release-asset"
+            ]
+        },
+        {
+            "name": "SAM5504B.sf2",
+            "size": 132047676,
+            "sha256": "63B14CAA66A19FE4EDB7FC661CB1C0F46DD979B615246A69F9AD150AF56E856F",
+            "description": "Dream SAM5504B Studio soundfont (132 MB MIDI synthesizer voices)",
+            "distribution": [
+                "release-asset"
+            ]
+        },
+        {
+            "name": "shubblob",
+            "size": 606828544,
+            "sha256": "4E71F9D3B520832B59B6B0B94766FF059018C85A920A0F2D0A592A2BD54845EF",
+            "description": "Encrypted song library blob (48,000+ karaoke MIDI/lrc tracks)",
+            "distribution": [
+                "release-asset"
+            ]
+        }
+    ],
     "soundfonts": [
+        {
+            "name": "soundfont.sf2",
+            "size": 98574116,
+            "sha256": "D63DE87525CCE532591D91C394FDD1F356AEB970491FB3472AA3A28A266825FD",
+            "description": "SongHub reSAM 16 SoundFont (98.5 MB, studio karaoke sound & optimized balance)",
+            "distribution": ["release-asset"]
+        },
+        {
+            "name": "SAM5504B.sf2",
+            "size": 132047676,
+            "sha256": "63B14CAA66A19FE4EDB7FC661CB1C0F46DD979B615246A69F9AD150AF56E856F",
+            "description": "Dream SAM5504B Studio soundfont (132 MB, rich hardware synth voices)",
+            "distribution": ["release-asset"]
+        },
         {
             "name": "Roland SC-55.sf2",
             "size": 9162316,
@@ -89,6 +112,57 @@
             "sha256": "C3D7676D9E081FAED9707505878CC077D349200FC2648F5161A2A44D57586EAD",
             "description": "WinLive Pro Mobile v1.0 SoundFont (42 MB)",
             "distribution": ["release-asset"]
+        }
+    ],
+    "bgvs": [
+        {
+            "name": "bgv.mp4",
+            "size": 8951088,
+            "sha256": "3D1462474CC7D7E3D9B8D3C8CD8C780106F60E2862C733447D72E09E4CD93C74",
+            "description": "Default Platinum 1080p Event 3 (8.9 MB)",
+            "distribution": ["release-asset", "github-raw"]
+        },
+        {
+            "name": "bgv_event2.mp4",
+            "size": 21181451,
+            "sha256": "C866660DADA6DD5B6129D122C241A7DC75261F709E6C926B1EBF942459266ABF",
+            "description": "Platinum Karaoke 1080p BGV Event 2 (21 MB)",
+            "distribution": ["release-asset"]
+        },
+        {
+            "name": "bgv_event5.mp4",
+            "size": 10707252,
+            "sha256": "C3B1F874307625CF991529F18E5BC9EBE9ECD0A64AF413E348E27D350F3C90CA",
+            "description": "Platinum Karaoke 1080p BGV Event 5 (10.7 MB)",
+            "distribution": ["release-asset"]
+        },
+        {
+            "name": "bgv_motion1.mp4",
+            "size": 29287197,
+            "sha256": "3FEA59C4651E3AFE78AF2737C935F5B28E45B8E87DE4DE2930C56D7E02C31C7F",
+            "description": "Dynamic Motion Karaoke BGV 1 (29 MB)",
+            "distribution": ["release-asset"]
+        },
+        {
+            "name": "bgv_motion2.mp4",
+            "size": 18771034,
+            "sha256": "355A3E204739DDB27068E75BDABE9E14B4F04C57A22E1B2B37815AE9F83A1D28",
+            "description": "Dynamic Motion Karaoke BGV 2 (18.7 MB)",
+            "distribution": ["release-asset"]
+        },
+        {
+            "name": "bgv_sayaw1.mp4",
+            "size": 26959884,
+            "sha256": "0C87D26387A2AC04E32C5DD00A19AEDD424481E1D32AD5A5596A34D757A136B2",
+            "description": "3D Dancing Stage Sayaw 1 (27 MB)",
+            "distribution": ["release-asset"]
+        },
+        {
+            "name": "bgv_bini_pantropiko.mp4",
+            "size": 9175561,
+            "sha256": "AA82BA154CE0B59EF53870B330543094B194BBA98B1DDA32F5435D245D1BC578",
+            "description": "BINI Pantropiko Performance BGV (9.1 MB)",
+            "distribution": ["release-asset", "github-raw"]
         }
     ]
 }
