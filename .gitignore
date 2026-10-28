@@ -1,0 +1,7 @@
+# Large media binary files downloaded via GitHub Releases
+resources/bgv_*.mp4
+*.apk
+*.zip
+*.sf2
+!resources/Roland SC-55.sf2
+!resources/WinLive Karaoke Mobile.sf2
