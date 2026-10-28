@@ -151,6 +151,13 @@
             "distribution": ["release-asset"]
         },
         {
+            "name": "bgv_motion3.mp4",
+            "size": 20211436,
+            "sha256": "229159C307D546E8D89EC9F97312570F7F2C652AD7511354529C930D5A999132",
+            "description": "Dynamic Motion Karaoke BGV 3 (20.2 MB)",
+            "distribution": ["release-asset"]
+        },
+        {
             "name": "bgv_sayaw1.mp4",
             "size": 26959884,
             "sha256": "0C87D26387A2AC04E32C5DD00A19AEDD424481E1D32AD5A5596A34D757A136B2",
@@ -158,10 +165,24 @@
             "distribution": ["release-asset"]
         },
         {
+            "name": "bgv_sayaw2.mp4",
+            "size": 31025336,
+            "sha256": "FD4A06FA86A72702AE202C46DD0E8E99AD3A089F71CA5B5257CC74FDF01C7C68",
+            "description": "3D Dancing Stage Sayaw 2 (31 MB)",
+            "distribution": ["release-asset"]
+        },
+        {
             "name": "bgv_bini_pantropiko.mp4",
             "size": 9175561,
             "sha256": "AA82BA154CE0B59EF53870B330543094B194BBA98B1DDA32F5435D245D1BC578",
             "description": "BINI Pantropiko Performance BGV (9.1 MB)",
+            "distribution": ["release-asset", "github-raw"]
+        },
+        {
+            "name": "bgv_bini_salamin.mp4",
+            "size": 8413139,
+            "sha256": "A56FD392B62C80247B16F1670F10F72986EB0EF15D88AD44827392D68A9AF287",
+            "description": "BINI Salamin Salamin BGV (8.4 MB)",
             "distribution": ["release-asset", "github-raw"]
         }
     ]
