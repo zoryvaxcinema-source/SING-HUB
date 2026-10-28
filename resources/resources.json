@@ -112,6 +112,48 @@
             "sha256": "C3D7676D9E081FAED9707505878CC077D349200FC2648F5161A2A44D57586EAD",
             "description": "WinLive Pro Mobile v1.0 SoundFont (42 MB)",
             "distribution": ["release-asset"]
+        },
+        {
+            "name": "Dream SAM2634 (ver. 2.1).sf2",
+            "size": 141454402,
+            "sha256": "795E72BE5FD0AC531ADB47B2B5CD6B482F2410E3C7E12EA58D3CFBEBC46EF93B",
+            "description": "Dream SAM2634 Studio (ver. 2.1) SoundFont (141 MB)",
+            "distribution": ["release-asset"]
+        },
+        {
+            "name": "SAM9703 (vER. 2).sf2",
+            "size": 108780264,
+            "sha256": "EDA4EDA8CAAFA70BE6EFB8DD2EF410DB14B819068961E79A16BF6DCFDF8BE0E0",
+            "description": "Dream SAM9703 (ver. 2) Studio SoundFont (108 MB)",
+            "distribution": ["release-asset"]
+        },
+        {
+            "name": "Arachno SoundFont - Version 1.0.sf2",
+            "size": 155405818,
+            "sha256": "9A57FB3B6714E69DDA12390E351B087E81FC3B1ECA15C6B13D6E2E10CA4568EE",
+            "description": "Arachno SoundFont v1.0 Full General MIDI (155 MB)",
+            "distribution": ["release-asset"]
+        },
+        {
+            "name": "WinLive Synth Driver.sf2",
+            "size": 97459712,
+            "sha256": "8038B6649D9B923C7B4E087B39735EF4CA9A6EF42926C732F51C1226AE5A52A6",
+            "description": "WinLive Synth Driver High-Def SoundFont (97 MB)",
+            "distribution": ["release-asset"]
+        },
+        {
+            "name": "Titanic 200 GM-GS v1.2.sf2",
+            "size": 288906882,
+            "sha256": "79ABFB5D7E6AE5E4E5A26262C465E45673FB0B66FCCE116D19B4C93683CA9A65",
+            "description": "Titanic 200 GM-GS v1.2 Symphony SoundFont (288 MB)",
+            "distribution": ["release-asset"]
+        },
+        {
+            "name": "SGM-v2.01-NicePianosGuitarsBass-V1.2.sf2",
+            "size": 324800670,
+            "sha256": "1B999795B8006C323E490596EB8C41ACC0C50598748CB8BE0CE67BCBD4B3141F",
+            "description": "SGM v2.01 Nice Pianos Guitars Bass (324 MB)",
+            "distribution": ["release-asset"]
         }
     ],
     "bgvs": [
